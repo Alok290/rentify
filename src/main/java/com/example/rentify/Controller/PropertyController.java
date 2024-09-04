@@ -3,13 +3,11 @@ package com.example.rentify.Controller;
 
 import com.example.rentify.Dto.PropertyRequestDto;
 import com.example.rentify.Service.PropertyService;
-import org.hibernate.boot.model.internal.CreateKeySecondPass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.nio.channels.ReadPendingException;
 
 @RestController
 @RequestMapping("/property")
